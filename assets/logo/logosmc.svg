@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 325.27 139.4">
+    <defs>
+        <style>
+            .cls-logobug-1{fill:#cec4a5;}.cls-logobug-2{fill:#41201f;}.cls-logobug-3{fill:#ee2937;}.cls-logobug-4{fill:#802729;}.cls-logobug-5{fill:#b22029;}
+        </style>
+    </defs>
+    <title>Asset 1</title>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Layer_1-2" data-name="Layer 1">
+            <path class="cls-logobug-1" d="M209.8,139.4h46.46a69,69,0,0,0,69-69V0H278.8"/>
+            <path class="cls-logobug-2" d="M115.47,0H69A69,69,0,0,0,0,69v70.4H46.47"/>
+            <path class="cls-logobug-3" d="M163.33,139.4H209.8a69,69,0,0,0,69-69V0H232.33"/>
+            <path class="cls-logobug-4" d="M161.94,0H115.47a69,69,0,0,0-69,69v70.4H92.93"/>
+            <path class="cls-logobug-5" d="M92.93,69v70.4h70.4a69,69,0,0,0,69-69V0H161.94A69,69,0,0,0,92.93,69Z"/>
+        </g>
+    </g>
+</svg>
