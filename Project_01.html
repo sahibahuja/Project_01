@@ -6,52 +6,59 @@
     <title>Santa Monica Studio</title>
     <link rel="icon" href="assets/logo/logosmc.svg" type="image/icon type">
     <link rel="stylesheet" href="Project_01.css" type="text/css" mediia="screen" >
+    <link rel="javaScript" href="Project_01.js"  type="text/js">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="Project_01.js"></script>
+    
   </head>
-<body>
-<section>    
-    <!-- NavBar -->
-    <nav  id="nav" class="navbar navbar-expand-sm navbar-light bg-white navbar-fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#"><div class="logo"><img  src="assets/logo/smstudio.svg" width="300px" ></div></a>
-            <div class="container1">
+<body>  
+  <span id="toTopBtn">
+    <button class="button1"><h2><strong>&#8682;</strong></h2></button> 
+  </span> 
+  <div class="topbar">
+    <div class="linktop" id="menu-center">
+      <ul>
+        <li>
+            <img class="logo" src="assets/logo/smstudio.svg" width="300px" ><img  class="logonew" src="assets/logo/logosmc.svg" width="50px" >            
+          </li>
+          <li>
+            <a class="active" href="#"><b>  Home  </b></a>
+          </li>
+          <li>
+            <a  href="#games"><b>  Games  </b></a>
+          </li>
+          <li>
+            <a  href="#artwork"><b>  Artwork  </b></a>
+          </li>
+          <li>
+            <a  href="#form"><b>  Contact  </b></a>
+          </li>
+        </ul>
+      </div>
+    </div>
 
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"><b>  Home  </b></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="#games"><b>  Games  </b></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="#artwork"><b>  Artwork  </b></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active " href="#form"><b>  Contact  </b></a>
-                </li>
-              </ul>
-            </div>
-        </div>
-    </nav>
-</section>
+
     
 <section>
     <!-- HomePage -->
     <div id="#"class="parent">
-        <div class ="both1"><img class="children" src="assets/home/son.png" width="auto"></div>
+        <div class ="both1"><img class="children" src="assets/home/kratos.png" width="100%"></div>
         <div class="both">
           <img class="children" src="assets/home/20-Years-Home.svg"  width="auto">
           <img class="children" src="assets/home/your-story-begins-here.svg"  width="auto">
         </div>            
-        <div class="both1"><img class="children" src="assets/home/kratos2.png" width="auto"></div>            
+        <div class="both1"><img class="children" src="assets/home/son.png" width="100%"></div>            
     </div>
     
 
 </section>    
 <section>
     <!-- Our Legacy Games (Slide Show)-->
-    <img  class="logoheading" src="assets/logo/logosmc.svg" width="50px" ><h1 id="games" class="art">Games</h1>
+    <h1 id="games" class="art">Games</h1>
+    <div class="crousaldiv">
+
     <div id="carouselExampleDark" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
       <div class="row py-3">
         <div class="col">
@@ -105,10 +112,11 @@
       </div>
     </div> 
     </div>
+            </div>
     </section>    
     <section>
     <!-- Upcoming Games Artwork (Felex Box)-->
-    <img  class="logoheading" src="assets/logo/logosmc.svg" width="50px" ><h1 id="games" class="art">Artwork</h1>    
+   <h1 id="games" class="art">Artwork</h1>    
     <div id="artwork">
       <div  class="parent1">
         <div class="box">
@@ -139,38 +147,34 @@
 </section> 
 <section>
   <!-- form -->
-  <img  class="logoheading" src="assets/logo/logosmc.svg" width="50px" ><h1 id="games" class="art">Contact</h1>
+ <h1 id="games" class="art">Contact</h1>
   <div class="form">
 
     <form id="form">
     <div class="mb-3">
-      <label for="exampleInputEmail1" class="form-label"><strong>Email address</strong></label>
+      <label for="exampleInputEmail1" class="form-label"><h3><strong>Email address</strong></h3></label>
       <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
       <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
     </div>
     <div class="mb-3">
-      <label for="exampleInputPassword1" class="form-label"><strong>Password</strong></label>
+      <label for="exampleInputPassword1" class="form-label"><h3><strong>Password</strong></h3></label>
       <input type="password" class="form-control" id="exampleInputPassword1">
     </div>
-    <div class="mb-3 form-check">
-      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-      <label class="form-check-label" for="exampleCheck1"><strong>Check me out</strong></label>
-    </div>
-    <button type="submit" class="btn btn-dark">Submit</button>
+    <button type="submit" class="button1" id="buttonid"><h4><strong>Submit</strong></h4></button>
   </form>
 </div>
 </section>     
 <section>
   <!-- footer -->
-    <footer class="page-footer footer-light bg-light font-small pt-4">
+    <footer class="page-footer  font-small pt-4">
         <div class="container">
           </div>
       
         </div>
         <div class="footerparent">
-          <div class="footerchild">
+          <!-- <div class="footerchild">
             <img src="assets/footer/PS-logo.png" width="120px">  
-          </div>
+          </div> -->
           <div class="footerchild">
             <img src="assets/footer/pss-logo.png" width="120px">  
           </div>
