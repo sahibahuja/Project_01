@@ -21,7 +21,7 @@ body{
 }
 
 .both{
-    margin-top:65px;
+    margin-top:100px;
     height:auto;
     width: auto;
     transition: 1s;
@@ -30,20 +30,26 @@ body{
     height:auto;
     width: auto;
     transition: 1s;
+    z-index: 200;
     }
 .parent1{
-    width: 100%;
+    width: 97%;
     height: auto;
     display: flex;
     flex-wrap: wrap;
 
     justify-content: center;
-    margin: 0 auto;
+    margin: 1.5% auto;
     align-items: center;
+    border-radius:30px;
+    background-image: radial-gradient(rgb(8, 8, 8),rgb(92, 91, 91) );
+    padding-top:20px;
+    box-shadow: 0 0 10px rgba(0,0,0.1);
+    /* padding-bottom:15px; */
 }
 .link{
     text-decoration: none;
-    color: white;
+    color: rgb(165, 157, 157);
     font-size: large;
 }
 a{
@@ -68,6 +74,11 @@ a{
     margin-right:24px;
     margin-top: 15px;
     margin-bottom: 15px;
+    border-radius: 20px;
+    background-image: radial-gradient(rgb(7, 7, 7),rgb(92, 91, 91) );
+    padding: 15px;
+    color: white;
+    opacity:9.5;
     
 }
 body{
@@ -76,7 +87,7 @@ body{
 .both{
     display: flex;
     flex-direction:column;
-    width:600px;
+    width:85%;
 }
 h2{
     color:white
@@ -160,13 +171,8 @@ h1{
         transition: 1s;
     }
 }
-@media screen and (max-width:720px) {
-    .logo{
-        display:none;
-        transition: 1s;
-    }
-}
-@media screen and (max-width:720px) {
+
+/* @media screen and (max-width:740px) {
     .logo{
         display:none;
         transition: 1s;
@@ -175,21 +181,21 @@ h1{
         margin-left:10px;
     }
 }
-@media screen and (min-width:681px) {
+@media screen and (min-width:739px) {
     .logonew{
         display:none;
         transition: 1s;
     }
-}
-@media screen and (max-width:519px) {
+} */
+@media screen and (max-width:540px) {
     .box img{
-       width:350px;
+       width:210px;
     }
 }
-@media screen and (max-width:473px) {
+/* @media screen and (max-width:473px) {
     .logonew{
        display:none;
-    }
+    } */
     .topbar {
         background-image: linear-gradient(rgb(65, 64, 64),rgb(92, 91, 91) );
         border-radius: 10px;
@@ -210,7 +216,7 @@ h1{
         padding: 8px 8px;
         text-decoration: none;
       }
-}
+
 .footer1{
     margin-top: 20px;
 }
@@ -224,7 +230,7 @@ h1{
     top: 0;
     width: 98%;
     z-index: 110;
-    height: 50px;
+    height: 90px;
     padding-top:10px;
     margin: 1%;
     padding-left:10px;
@@ -233,23 +239,31 @@ h1{
   #menu-center ul li {
     list-style: none;
     display: inline;
+    /* z-index: 220; */
 }
   
   .linktop {
     float: left;
     display: block;
-
+    z-index: 210;
   }
   .linktop a{
     color: #fdfcfc;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    z-index: 210;
+
   }
   
   .linktop a {
     color: rgb(252, 249, 249);
-  } */
+    /* z-index: 220; */
+  } 
+  .linktop img{
+      margin-bottom: 15px;
+      /* z-index: 220; */
+  }
 /* new nav css */
 /* body, html {
     margin: 0;
@@ -275,7 +289,17 @@ h1{
     margin-top:10px;
 }
 /** BACK TO TOP **/
-
+.button2{
+    text-shadow: black 0 0 3px;
+    opacity: 0.9;
+    width:fit-content;
+    color:rgb(252, 250, 250);
+    padding-top:5px;
+    background-image: linear-gradient(rgb(53, 53, 53), rgb(27, 27, 27));
+    border-radius:10px;
+    border:0px;
+    box-shadow: 0 0 10px rgb(7, 7, 7);  
+    }
 #toTopBtn {
     display: none;
     position: fixed;

@@ -14,26 +14,7 @@ $(document).ready(function() {
       }, 500);
       return false;
     });
-    // home image animation
-    var supportedFlag = $.keyframe.isSupported();
 
-$.keyframe.define([{
-    name: 'myfirst',
-       '0%':   {top:$(".both").innerHeight()*-1, left:0},
-       '50%':  {top:"100%" , left:0},
-       '100%': {top:$(".both").innerHeight()*-1, left:0}
-}]);
-
-$(selector).playKeyframe({
-name: 'myfirst', // name of the keyframe you want to bind to the selected element
-duration: 90, // [optional, default: 0, in ms] how long you want it to last in     milliseconds
-timingFunction: 'linear', // [optional, default: ease] specifies the speed curve of the animation
-delay: 0, //[optional, default: 0, in ms]  how long you want to wait before the animation starts in milliseconds, default value is 0
-repeat: 'infinite', //[optional, default:1]  how many times you want the animation to repeat, default value is 1
-direction: 'alternate', //[optional, default: 'normal']  which direction you want the frames to flow, default value is normal
-fillMode: 'running', //[optional, default: 'forward']  how to apply the styles outside the animation time, default value is forwards
-complete: function(){} //[optional]  Function fired after the animation is complete. If repeat is infinite, the function will be fired every time the animation is restarted.
-});
 // Nav bar link hover function
     $(".linktop a").hover(function(){
       $(this).css("background-image", "linear-gradient(rgb(53, 53, 53), rgb(27, 27, 27))");
@@ -138,7 +119,7 @@ complete: function(){} //[optional]  Function fired after the animation is compl
       $(this).css("transform", "none ");
     });
     $("#toTopBtn").hover(function(){
-      $(this).css("z-index", "120");
+      $(this).css("z-index", "230");
       }, function(){
       $(this).css("z-index", "none ");
     });
@@ -174,6 +155,33 @@ complete: function(){} //[optional]  Function fired after the animation is compl
       $(this).css("transition", "none ");
     });
     $(".topbar").hover(function(){
+      $(this).css("border-radius", "10px");
+      }, function(){
+      $(this).css("border-radius", "none ");
+    });
+
+    // form hover function
+    $(".form").hover(function(){
+      $(this).css("box-shadow", "0 0 12px rgb(7, 7, 7)");
+      }, function(){
+      $(this).css("box-shadow", "0 0 8px rgb(7, 7, 7) ");
+    });
+    $(".form").hover(function(){
+      $(this).css("transform", "scale(1.003)");
+      }, function(){
+      $(this).css("transform", "none ");
+    });
+    $(".form").hover(function(){
+      $(this).css("z-index", "120");
+      }, function(){
+      $(this).css("z-index", "none ");
+    });
+    $(".form").hover(function(){
+      $(this).css("transition", "0.3s");
+      }, function(){
+      $(this).css("transition", "none ");
+    });
+    $(".form").hover(function(){
       $(this).css("border-radius", "10px");
       }, function(){
       $(this).css("border-radius", "none ");
