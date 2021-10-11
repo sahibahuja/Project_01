@@ -145,9 +145,9 @@ $(document).ready(function() {
       $(this).css("transform", "none ");
     });
     $(".topbar").hover(function(){
-      $(this).css("z-index", "120");
+      $(this).css("z-index", "220");
       }, function(){
-      $(this).css("z-index", "none ");
+      $(this).css("z-index", "210 ");
     });
     $(".topbar").hover(function(){
       $(this).css("transition", "0.3s");
