@@ -64,11 +64,11 @@ $(document).ready(function() {
       }, function(){
       $(this).css("transform", "none ");
     });
-    $("#buttonid").hover(function(){
-      $(this).css("z-index", "120");
-      }, function(){
-      $(this).css("z-index", "none ");
-    });
+    // $("#buttonid").hover(function(){
+    //   $(this).css("z-index", "120");
+    //   }, function(){
+    //   $(this).css("z-index", "none ");
+    // });
     $("#buttonid").hover(function(){
       $(this).css("transition", "0.3s");
       }, function(){
@@ -91,11 +91,11 @@ $(document).ready(function() {
       }, function(){
       $(this).css("transform", "none ");
     });
-    $("h1").hover(function(){
-      $(this).css("z-index", "120");
-      }, function(){
-      $(this).css("z-index", "none ");
-    });
+    // $("h1").hover(function(){
+    //   $(this).css("z-index", "120");
+    //   }, function(){
+    //   $(this).css("z-index", "none ");
+    // });
     $("h1").hover(function(){
       $(this).css("transition", "0.3s");
       }, function(){
@@ -119,7 +119,7 @@ $(document).ready(function() {
       $(this).css("transform", "none ");
     });
     $("#toTopBtn").hover(function(){
-      $(this).css("z-index", "230");
+      $(this).css("z-index", "2");
       }, function(){
       $(this).css("z-index", "none ");
     });
@@ -145,9 +145,9 @@ $(document).ready(function() {
       $(this).css("transform", "none ");
     });
     $(".topbar").hover(function(){
-      $(this).css("z-index", "220");
+      $(this).css("z-index", "3");
       }, function(){
-      $(this).css("z-index", "210 ");
+      $(this).css("z-index", "2 ");
     });
     $(".topbar").hover(function(){
       $(this).css("transition", "0.3s");
